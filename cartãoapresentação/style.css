@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+header{
+    background-color: #088604;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px 10px 0 0 ;
+}
+.contato{
+    margin: 20pc 0;
+}
+.media-social{
+    margin: 20px 0;
+}
+a{
+    color: #088604;
+    text-decoration: none;
+    margin: 10px;
+}
+a:hover{
+    font-size:17px;
+}
+@media(max-width:600px){
+    div{padding: 3%;}
+}
